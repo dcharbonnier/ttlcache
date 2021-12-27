@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/Brokerloop/ttlcache#readme",
   "scripts": {
+    "prepare": "npm run build",
     "clean": "rm -rf ./build ./coverage ./.nyc_output",
     "lint": "tslint -p tsconfig.json",
     "test": "tsc && alsatian \"./build/test/**/*.test.js\"",
