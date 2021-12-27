@@ -19,6 +19,8 @@
     "browser",
     "typescript"
   ],
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Brokerloop/ttlcache.git"
