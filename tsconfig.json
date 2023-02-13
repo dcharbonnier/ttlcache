@@ -1,13 +1,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "lib": ["es2015"],
-    "target": "es2015",
+    "lib": ["es2020"],
+    "target": "es2020",
     "outDir": "build",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": false,
     "strict": true,
+    "skipLibCheck": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
